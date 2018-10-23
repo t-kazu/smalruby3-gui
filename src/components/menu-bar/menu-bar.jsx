@@ -355,6 +355,20 @@ class MenuBar extends React.Component {
                                         </MenuItem>
                                     )}</SB3Downloader>
                                 </MenuSection>
+                                <MenuSection>
+                                    <MenuItemTooltip
+                                        id="download_ruby_code"
+                                        isRtl={this.props.isRtl}
+                                    >
+                                        <MenuItem>
+                                            <FormattedMessage
+                                                defaultMessage="Download Ruby code to your computer"
+                                                description="Menu bar item for downloading Ruby code to your computer"
+                                                id="gui.smalruby3.menuBar.downloadRubyCodeToComputer"
+                                            />
+                                        </MenuItem>
+                                    </MenuItemTooltip>
+                                </MenuSection>
                             </MenuBarMenu>
                         </div>
                         <div
